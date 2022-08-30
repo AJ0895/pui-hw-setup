@@ -1,0 +1,25 @@
+head{
+    align-items: left;
+}
+body{
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+.Heading{
+    background-color: yellow;
+    display: inline-block;
+    color:black;
+   }
+
+.Productlist{
+   align-items: left;
+}
+
+.Productlist:hover {
+    background: yellow;
+
+}
+
+.Pborder{
+    border: 2px solid black;
+}
