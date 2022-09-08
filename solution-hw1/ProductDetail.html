@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+  
+  <body>
+    <head>
+      <title>Product Detail page</title>
+      <!--Linking CSS to the html file-->
+      <link rel="stylesheet" type="text/css" href="Stylesheets/Page2.css">
+    </head>
+
+    <main>
+      <!--Section for the logo-->
+      <section>
+        <img src="products/logo-01.svg" width="350" alt="Logo"/>
+        <hr>
+      </section>
+      
+      <!--Navigation: Products and cart-->
+      <nav>
+        <a class="navlink" href="ProductList.html">PRODUCTS</a><br><br>
+        <a class="navlink" href="Shoppingcart.html">CART</a>
+      </nav>
+
+      <section class="mid">
+        <h2>Original cinnamon roll</h2>
+
+        <div  class="Productlist" width="400">
+          <img class="imgstyle" src="products/original-cinnamon-roll.jpg" width="400" alt="Original cinnamon roll" />
+          <br>
+          <br>
+
+          <div class="pDes">
+            <div id="Dtext"> Customize our delicious hand-made cinnamon roll to your liking! </div>
+             <br>
+             <br>
+
+             <div class="customselect">
+              Glazing:<br>
+              <select id="dropdown">
+                <option>Keep original</option>
+                <option>Sugar milk</option>
+                <option>Vanilla milk</option>
+                <option>Double chocolate</option>
+             </select>
+             </div>  
+             
+             <div class="customselect">
+              Pack size:<br>
+              <select id="dropdown">
+                <option>1</option>
+                <option>3</option>
+                <option>6</option>
+                <option>12</option>
+              </select>
+             </div>
+
+             <div class="flex1">
+              $2.49
+              <button type="button"> <a class="addtocart" href="Shoppingcart.html"> Add to Cart </button>        
+             </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>

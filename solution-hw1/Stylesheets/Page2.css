@@ -1,0 +1,94 @@
+main {
+    font-family: Tahoma, sans-serif;
+}
+
+nav{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+  }
+
+.navlink:hover{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+hr{
+    border-top: 3px solid black;
+}
+
+.mid{
+    margin: auto;
+    width: 50%;
+    text-align: center; 
+}
+
+h2{
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+.imgstyle{
+    border: 2px solid black;
+}
+
+.pDes{
+    margin: auto;
+    width: 200px;
+    text-align:left;
+    /*background-color: bisque;*/
+    margin-bottom: 100px;
+    
+}
+
+.customselect{
+    font-size: 16px;
+    margin-top: 30px;
+    /*background-color: grey;*/
+    
+}
+
+.customselect select{
+    /*background-color: bisque;*/
+    font-size: 16px;
+    border: 1px  solid black;
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+#dropdown {
+    width: 500;
+    border: black solid 2px;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    width: 200px;
+    margin-top: 50px;
+}
+
+button {
+    background-color: yellow;
+    font-size: 16px;
+    border: 2px  solid black;
+    padding: 5px;
+    width: 130px;
+    font-weight: bold;
+}
+
+.addtocart {
+    text-decoration: none;
+    color: black;
+}

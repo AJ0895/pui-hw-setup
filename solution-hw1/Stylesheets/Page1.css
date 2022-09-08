@@ -1,25 +1,83 @@
-head{
-    align-items: left;
-}
-body{
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+main {
+    font-family: Tahoma, sans-serif;
+    color:black ;
 }
 
-.Heading{
+nav{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+    color:black ;
+}
+
+.navlink {
+    /*background-color: aqua;*/
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.navlink:hover{
+    text-decoration: none;
     background-color: yellow;
-    display: inline-block;
-    color:black;
-   }
+    color: black;
+    font-weight: bold;
+}
 
-.Productlist{
-   align-items: left;
+hr{
+    border-top: 3px solid black;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.mid{
+    margin: auto;
+    width: 50%;
+    text-align: center; 
+}
+
+.Productlist {
+    /*background-color: aqua;*/
+    margin: auto;
+    height: auto;
+    width: 170px;
+    padding: 5px 5px 0px 5px;
+    margin-bottom: 20px;
+    
 }
 
 .Productlist:hover {
     background: yellow;
-
+    color: black;
 }
 
-.Pborder{
+.imgstyle {
     border: 2px solid black;
 }
+
+
+.pDetails {
+    padding-top: 10px;
+    /*background-color: aqua;*/
+    text-align: left;
+    height: auto;
+    width: 180px;
+    color: black;
+}
+
+.plink {
+    /*background-color: aqua;*/
+    text-decoration: underline;
+    text-decoration-color: grey;
+    font-size: 16px;
+    color:black ;
+}
+
+.plink:hover {
+    font-weight: bold;
+}
+

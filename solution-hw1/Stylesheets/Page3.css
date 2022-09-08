@@ -1,0 +1,66 @@
+main {
+    font-family: Tahoma, sans-serif;
+}
+
+nav{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+  }
+
+.navlink:hover{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+hr{
+    border-top: 3px solid black;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.mid{
+    margin: auto;
+    width: 50%;
+    text-align: center; 
+}
+
+.Productlist{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /*background-color: bisque;*/
+}
+
+.imgstyle{
+    border: 2px solid black;
+}
+
+.remove{
+    margin-top: 0px;
+    font-size: 10px;
+    /*background-color: bisque;*/
+}
+
+button{
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    border: 2px solid black;
+    background-color: yellow;
+}
+
+.total {
+    margin-top: 20px;
+}
