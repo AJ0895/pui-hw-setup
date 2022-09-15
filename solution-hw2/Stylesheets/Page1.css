@@ -3,43 +3,19 @@ main {
     color:black ;
 }
 
-.Top {
-    display: flex;
-    /* background-color: grey; */
-}
-
-img{
-    /* background-color: aqua; */
-}
-
-.flex-small{
-    flex:0 1 auto;
-    width: 30%;
-}
-
-.flex-big {
-    flex:1 0 auto;
-    width: 70%;
-}
-
-nav {
-    /* background-color: grey; */
-    display: flex;
-    justify-content: flex-end;
+nav{
+    text-align: center;
     margin: auto;
-    margin-top: 50px;
-    margin-right: 300px;
-    width: 600px;
+    width: 50%;
+    margin-bottom: 50px;
     color:black ;
 }
 
 .navlink {
-    /* background-color: yellow; */
+    /*background-color: aqua;*/
     text-decoration: none;
     color: black;
     font-weight: normal;
-    margin-left: 30px;
-    padding-left: 30px;
 }
 
 .navlink:hover{
@@ -54,26 +30,22 @@ hr{
 }
 
 h2{
-    margin-top: 60px;
     font-size: 20px;
     font-weight: normal;
 }
 
 .mid{
-    /* background-color: aqua; */
-    padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    width:600px;
-    margin: auto; 
+    margin: auto;
+    width: 50%;
+    text-align: center; 
 }
 
 .Productlist {
-    /* background-color: lightblue; */
+    /*background-color: aqua;*/
     margin: auto;
-    height: 230px;
+    height: auto;
     width: 170px;
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
     margin-bottom: 20px;
     
 }
