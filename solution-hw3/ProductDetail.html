@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+  
+  <body>
+    <head>
+      <title>Product Detail page</title>
+      <!--Linking CSS to the html file-->
+      <link rel="stylesheet" type="text/css" href="Stylesheets/Page2.css">
+      <!--Linking Javascript File-->
+      <!-- <script src="JS/Total.js" defer></script> -->
+      <script src="JS/Total.js" defer></script>
+    </head>
+
+    <main>
+      <!--Section for the logo-->
+      <section class="Top">
+
+        <div class="flex-small">
+          <img src="products/logo-01.svg" width="350" alt="Logo"/>
+        </div>
+      
+        <div class="flex-big">
+          <nav>
+            <a class="navlink" href="ProductList.html">PRODUCTS</a><br><br>
+            <a class="navlink" href="Shoppingcart.html">CART</a>
+          </nav>
+          <hr>
+          <h2>Original Cinnamon Roll</h2>
+        </div>
+
+      </section>  
+      
+      <section class="mid">
+        
+        <div  class="Productlist" width="400">
+          
+          <div>
+            <img class="imgstyle" src="products/original-cinnamon-roll.jpg" width="400" alt="Original cinnamon roll" />
+          </div>
+          
+          <div class="pDes">
+            <div id="Dtext"> Customize our delicious hand-made cinnamon roll to your liking! </div>
+             <br>
+             <br>
+
+             <div class="customselect">
+              Glazing:<br>
+              <select class="dropdown" id="glazingoptions" onchange="onOptionsChange(this)">
+                <!-- Generated dynamically through JS -->
+             </select>
+             </div>  
+             
+             <div class="customselect">
+              Pack size:<br>
+              <select class="dropdown" id="packSize" onchange="onOptionsChange(this)">
+                <!-- Generated dynamically through JS -->
+              </select>
+             </div>
+
+             <div class="flex1">
+              <div class="price"> 
+                  <span>$</span><span id="totalPrice">2.49 <!-- Updated dynamically in JS  --></span>
+              </div>
+              <button type="button"> <a class="addtocart" href="Shoppingcart.html"> Add to Cart </button>        
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>

@@ -12,41 +12,84 @@
   </body>
 
   <main>
-    <!--Section for the logo-->
-    <section>
-        <img src="products/logo-01.svg" width="350" alt="Logo"/>
-        <hr>
-    </section>
+    <section class="Top">
 
-    <!--Navigation: Products and cart-->
-    <nav>
-        <a class="navlink" href="ProductList.html">PRODUCTS</a><br><br>
-        <a class="navlink" href="Shoppingcart.html">CART</a>
-    </nav>
+        <div class="flex-small">
+          <img src="products/logo-01.svg" width="350" alt="Logo"/>
+        </div>
+      
+        <div class="flex-big">
+          <nav>
+            <a class="navlink" href="ProductList.html">PRODUCTS</a><br><br>
+            <a class="navlink" href="Shoppingcart.html">CART</a>
+          </nav>
+          <hr>
+          <h2>Shopping cart</h2>
+        </div>
+
+    </section>     
 
     <section class="mid">
-        <h2>Shopping cart</h2>
+        <div class="box1">
 
-        <div  class="Productlist" width="400">
-            <img class="imgstyle" src="products/original-cinnamon-roll.jpg" width="75" alt="Original cinnamon roll" />
-            <p class="remove">Remove</p>
-            <p>Original Cinnamon Roll <br> Glazing: Keep original <br> Pack Size:1 </p>
-            <div> $2.49 </div>
         </div>
 
-        <div  class="Productlist" width="400">
-            <img class="imgstyle" src="products/original-cinnamon-roll.jpg" width="75" alt="Original cinnamon roll" />
-            <p class="remove">Remove</p>
-            <p>Double Chocolate Cinnamon Roll <br> Glazing: Sugar Milk <br> Pack Size:6 </p>
-            <div> $27.45 </div>
-        </div>
+        <div class="box2">
 
-        <hr>
+            <div  class="Productlist" width="400">
 
-        <div class="total">
-            Total: $ 29.94 <br>
-            <button type="button"> <b>Checkout</b> </button>
+                <div class="imgnR">
+                    <img class="imgstyle" src="products/original-cinnamon-roll.jpg" width="75" alt="Original cinnamon roll" />
+                    <p class="remove">Remove</p>
+                </div>
+                
+                <div class="pinfo">
+                    Original Cinnamon Roll <br> 
+                    Glazing: Keep original <br> 
+                    Pack Size:1 
+                </div>
+    
+                <div class="price"> 
+                    $2.49 
+                </div>
+    
+            </div>
+    
+            <div  class="Productlist" width="400">
+    
+                <div class="imgnR">
+                    <img class="imgstyle" src="products/original-cinnamon-roll.jpg" width="75" alt="Original cinnamon roll" />
+                    <p class="remove">Remove</p>
+                </div>
+                
+                <div class="pinfo" >
+                    Double Chocolate Cinnamon Roll <br> 
+                    Glazing: Sugar Milk <br> 
+                    Pack Size:6                 
+                </div>
+                
+                <div class="price">
+                    $27.45 
+                </div>
+    
+            </div>
+    
+            <hr>
+    
+            <div class="Checkout">
+                
+                <div class="total"> 
+                    <div class="T1"> Total:</div>
+                    <div class="T2"> $29.94</div>                
+                </div>
+
+                <div class="final"> 
+                    <button type="button"> <b>Checkout</b> </button>
+                </div>
+            </div>
+
         </div>
+              
 
       </section>
 

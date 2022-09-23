@@ -2,17 +2,39 @@ main {
     font-family: Tahoma, sans-serif;
 }
 
+.Top {
+    display: flex;
+    /* background-color: grey; */
+}
+
 nav{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: flex-end;
     text-align: center;
     margin: auto;
+    margin-top: 50px;
     width: 50%;
-    margin-bottom: 50px;
+    color:black ;
 }
+
+.flex-small{
+    flex:0 1 auto;
+    width: 30%;
+}
+
+.flex-big {
+    flex:1 0 auto;
+    width: 70%;
+}
+
 
 .navlink {
     text-decoration: none;
     color: black;
-  }
+    font-weight: normal;
+    margin-left: 30px;
+}
 
 .navlink:hover{
     text-decoration: none;
@@ -26,15 +48,20 @@ hr{
 }
 
 .mid{
+    margin-top: 50px;
     margin: auto;
     width: 50%;
     text-align: center; 
 }
 
-h2{
+.Productlist{
+    display: flex;
+}
+
+h2{ 
+    margin-top: 50px;
     font-size: 20px;
     font-weight: normal;
-    
 }
 
 .imgstyle{
@@ -42,10 +69,13 @@ h2{
 }
 
 .pDes{
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
     margin: auto;
+    margin-left: 50px;
     width: 200px;
     text-align:left;
-    /*background-color: bisque;*/
     margin-bottom: 100px;
     
 }
@@ -73,10 +103,15 @@ h2{
 
 .flex1{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+
     margin:auto;
     width: 200px;
     margin-top: 50px;
+}
+
+.price{
+    margin-right: 50px;
 }
 
 button {
