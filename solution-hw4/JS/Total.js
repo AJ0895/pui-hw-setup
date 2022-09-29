@@ -131,7 +131,7 @@ document.querySelector(".flex-big h2").innerText= rollType + " Cinnamon Roll";
 //Changing the main image
 document.querySelector(".imgstyle").src = "./" + rolls[rollType].imageFile;
 
-console.log(rolls[rollType].imageFile);
+//console.log(rolls[rollType].imageFile);
 
 document.querySelector(".imgstyle").src=rolls[rollType].imageFile;
 
@@ -167,5 +167,5 @@ function addtocart() {
     //Adding the newRoll to the Array
     cart.push(newRoll);
     
-    console.log(cart);
+    //console.log(cart);
 }
