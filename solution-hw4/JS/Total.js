@@ -75,19 +75,20 @@ const basePrice=2.49;
 let pChange=1;
 let gChange=0;
 let finalPrice=0;
-let glazing;
+let glazing="Keep Original";
 let pack;
 
 function onOptionsChange(element) {
     //console.log('Its working!');
     const change = element.value;
 
+
     //Check if the change is in glazing name
     for(let i=0;i<glazingArray.length;i++){
         if (glazingArray[i].glazingName==change){
             gChange=glazingArray[i].glazingPrice;
             glazing=glazingArray[i].glazingName;
-            // console.log(gChange);
+            //console.log(glazing);
         }
     }
 
@@ -122,15 +123,21 @@ const params = new URLSearchParams(queryString);
 const rollType = params.get("roll");// finding the last word
 
 console.log(rollType);
+console.log(rolls[rollType].imageFile);
 
-//Changing the heading name
-document.querySelector(".flex-big h2").innerHTML= rollType + " Cinnamon Roll";
+//Changing the heading name-done
+document.querySelector(".flex-big h2").innerText= rollType + " Cinnamon Roll";
 
 //Changing the main image
+document.querySelector(".imgstyle").src = "./" + rolls[rollType].imageFile;
+
+console.log(rolls[rollType].imageFile);
+
 document.querySelector(".imgstyle").src=rolls[rollType].imageFile;
 
+
 //Changing the base price according to the options
-document.querySelector("#totalPrice").innerHTML= rolls[rollType].basePrice;
+document.querySelector("#totalPrice").innerText= rolls[rollType].basePrice;
 
 
 //------------------Add to cart--------------------------//
@@ -160,5 +167,5 @@ function addtocart() {
     //Adding the newRoll to the Array
     cart.push(newRoll);
     
-    //console.log(cart);
+    console.log(cart);
 }
