@@ -114,8 +114,8 @@ function onOptionsChange(element) {
 //---------------------HW4---------------------------------//
 
 
-//console.log(rolls);
-//console.log(rolls["Apple"]);
+console.log(rolls);
+console.log(rolls["Apple"]);
 
 //Introductory code for getting rollType
 const queryString = window.location.search;
@@ -126,6 +126,7 @@ console.log(rollType);
 console.log(rolls[rollType].imageFile);
 
 //Changing the heading name-done
+//console.log(document.querySelector(".flex-big h2"));
 document.querySelector(".flex-big h2").innerText= rollType + " Cinnamon Roll";
 
 //Changing the main image
@@ -133,7 +134,7 @@ document.querySelector(".imgstyle").src = "./" + rolls[rollType].imageFile;
 
 //console.log(rolls[rollType].imageFile);
 
-document.querySelector(".imgstyle").src=rolls[rollType].imageFile;
+//document.querySelector(".imgstyle").src=rolls[rollType].imageFile;
 
 
 //Changing the base price according to the options

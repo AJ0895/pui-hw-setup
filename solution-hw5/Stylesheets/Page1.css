@@ -1,0 +1,111 @@
+main {
+    font-family: Tahoma, sans-serif;
+    color:black ;
+}
+
+.Top {
+    display: flex;
+    /* background-color: grey; */
+}
+
+img{
+    /* background-color: aqua; */
+}
+
+.flex-small{
+    flex:0 1 auto;
+    width: 30%;
+}
+
+.flex-big {
+    flex:1 0 auto;
+    width: 70%;
+}
+
+nav {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 300px;
+    width: 600px;
+    color:black ;
+}
+
+.navlink {
+    /* background-color: yellow; */
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+.navlink:hover{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+hr{
+    border-top: 3px solid black;
+}
+
+h2{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.mid{
+    /* background-color: aqua; */
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width:600px;
+    margin: auto; 
+}
+
+.Productlist {
+    /* background-color: lightblue; */
+    margin: auto;
+    height: 230px;
+    width: 170px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.Productlist:hover {
+    background: yellow;
+    color: black;
+}
+
+.imgstyle {
+    border: 2px solid black;
+}
+
+
+.pDetails {
+    padding-top: 10px;
+    /*background-color: aqua;*/
+    text-align: left;
+    height: auto;
+    width: 180px;
+    color: black;
+}
+
+.plink {
+    /*background-color: aqua;*/
+    text-decoration: underline;
+    text-decoration-color: grey;
+    font-size: 16px;
+    color:black ;
+}
+
+.plink:hover {
+    font-weight: bold;
+}
+
