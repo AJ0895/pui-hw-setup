@@ -1,0 +1,172 @@
+main {
+    font-family: Tahoma, sans-serif;
+}
+
+.Top {
+    display: flex;
+    /* background-color: grey; */
+}
+
+nav {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 300px;
+    width: 600px;
+    color:black ;
+}
+
+.flex-small{
+    flex:0 1 auto;
+    width: 30%;
+}
+
+.flex-big {
+    /* background-color: aqua; */
+    flex:1 0 auto;
+    width: 60%;
+}
+
+.navlink {
+    /* background-color: yellow; */
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+.navlink:hover{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+hr{
+    border-top: 3px solid black;
+}
+
+h2{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.mid{
+    display: flex;
+    margin: auto;
+    /* width: 50%; */
+    /* background-color: bisque;  */
+}
+
+.box1{
+    /* background-color: azure; */
+    flex:0 1 auto;
+    width: 30%;
+}
+
+.box2{
+    flex:1 0 auto;
+    width: 60%;
+}
+
+.Productlist {
+    flex:1 0 auto;
+    display: flex;
+    justify-items: end;
+    width: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin-left: 60px; */
+    /* background-color: bisque; */
+}
+
+.imgnR{
+    text-align: left;
+}
+
+.pinfo{
+    /* background-color: lightblue; */
+    width:300px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.price{
+    /* background-color: azure; */
+    margin-left: 150px;
+}
+
+
+.imgstyle{
+    border: 2px solid black;
+}
+
+.remove{
+    margin-top: 0px;
+    font-size: 10px;
+    /*background-color: bisque;*/
+}
+
+button{
+    margin-top: 40px;
+    font-size: 16px;
+    width: 100px;
+    height: 35px;
+    border: 2px solid black;
+    background-color: yellow;
+}
+
+.Checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* background-color: red; */
+    width: 600px;
+    margin-top: 20px;
+}
+
+.total{
+    display: flex;
+    justify-content: end;
+}
+
+.T1 {
+    width:600px;
+    /* background-color: blueviolet; */
+    margin-left: 95px;
+}
+
+.final {
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    /* background-color: beige; */
+    
+}
+
+.removeButton {
+    background-color: white;
+    border-color: white;
+    text-decoration: underline;
+    display: block;
+    margin-top: 0px;
+    text-align:left;
+    padding-left: 0px;
+}
+
+.rollName{
+    padding: 0px;
+    margin: 0px;
+}
+
+.glazeName{
+    margin: 0px;
+}
+
+.packSize{
+    margin:0px;
+}

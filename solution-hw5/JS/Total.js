@@ -167,6 +167,13 @@ function addtocart() {
 
     //Adding the newRoll to the Array
     cart.push(newRoll);
-    
-    //console.log(cart);
+    console.log(cart);
+
+    //Creating a JSON object
+    var x=JSON.stringify(newRoll);
+    localStorage.setItem("myItem",x);
+    var y=JSON.parse(localStorage.getItem("myItem"));
+    console.log(y);
+
+   
 }

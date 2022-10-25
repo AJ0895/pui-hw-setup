@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>Page Title</title>
+
+  <body>
+    <head>
+      <title>Product Detail page</title>
+      <!--Linking CSS to the html file-->
+      <link rel="stylesheet" type="text/css" href="Stylesheets/Page3.css" />
+
+      <!-- Adding the Json file -->
+      <script src="JS/rollsData.js" defer></script>
+
+      <!--Linking Javascript to the html file-->
+      <script src="/JS/Cart.js" defer></script>
+    </head>
+
+    <main>
+      <section class="Top">
+        <div class="flex-small">
+          <img src="products/logo-01.svg" width="350" alt="Logo" />
+        </div>
+
+        <div class="flex-big">
+          <nav>
+            <a class="navlink" href="ProductList.html">PRODUCTS</a><br /><br />
+            <a class="navlink" href="Shoppingcart.html">CART</a>
+          </nav>
+          <hr />
+          <h2>Shopping cart</h2>
+        </div>
+      </section>
+
+      <section class="mid">
+        <div class="box1"></div>
+
+        <div class="box2">
+          <div class="onlyProducts"></div>
+
+          <hr />
+
+          <div class="Checkout">
+            <div class="total">
+              <div class="T1">Total:</div>
+              <div class="T2">$0.00</div>
+            </div>
+
+            <div class="final">
+              <button type="button"><b>Checkout</b></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <template id="cartItem">
+      <div class="Productlist" width="400">
+        <div class="imgnR">
+          <img
+            class="imgstyle"
+            src="products/original-cinnamon-roll.jpg"
+            width="75"
+            alt="Original cinnamon roll"
+          />
+          <button class="removeButton">Remove</button>
+        </div>
+
+        <div class="pinfo">
+          <p class="rollName">Original Cinnamon Roll</p>
+          <p class="glazeName">Glazing: Keep original</p>
+          <p class="packSize">Pack Size:1</p>
+        </div>
+
+        <div class="price">$2.49</div>
+      </div>
+    </template>
+  </body>
+</html>
