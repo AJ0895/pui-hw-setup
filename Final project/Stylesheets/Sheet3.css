@@ -1,0 +1,92 @@
+/*Setting up font*/
+*{
+    /*margin:0;*/
+    padding:0;
+    font-family: 'Poppins';font-size: 16px;
+    /*box-sizing: border-box;*/
+}
+
+
+/*Nav bar styling*/
+.Navigation{
+    /*background-color: beige;*/
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+/*Nav link styling*/
+.navlink{
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:#AF7E00;
+    font-weight: bold;
+}
+
+/*Nav link hover state*/
+.navlink:hover{
+    color:black;
+}
+
+
+button {
+    background-color: #AF7E00;
+    font-size: 16px;
+    padding: 8px;
+    width: auto;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+
+.midSec{
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    display:flex;
+    flex-direction: row;
+}
+
+.partOne{
+    width:50%;
+    padding-right: 80px;
+}
+
+.contact{
+    color:#AF7E00;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.contactTxt{
+    width: 100%;
+}
+
+
+.partTwo{
+    width:50%;
+    height:80%;
+}
+
+.sButton{
+    margin-top: 50px;
+    padding: 10px;
+    width:100%;
+}
+
+@media (max-width:820px) {
+
+    .midSec{
+        flex-direction: column;
+    }
+
+}
