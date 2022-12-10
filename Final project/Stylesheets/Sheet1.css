@@ -50,7 +50,7 @@
 
 /*button styling*/
 button {
-    background-color: #AF7E00;
+    background-color: #473301;
     font-size: 16px;
     padding-left: 16px;
     padding-right: 16px;
@@ -106,7 +106,7 @@ a{
 
 .htext1 {
     /*background-color: blue;*/
-    color:#AF7E00;
+    color:#473301;
     font-weight: bolder;
     width: 650px;
     font-size: 80px;
@@ -116,7 +116,7 @@ a{
 
 .htext2 {
     /*background-color: beige;*/
-    color:#AF7E00;
+    color:#6c6c6c;
     width: 650px;
     font-size: 20px;
     padding-bottom: 20px;

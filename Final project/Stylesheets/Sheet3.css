@@ -35,6 +35,10 @@
     color:black;
 }
 
+.navSmall:hover{
+    background-color:#AF7E00;
+}
+
 
 button {
     background-color: #AF7E00;
@@ -87,6 +91,10 @@ button {
 
     .midSec{
         flex-direction: column;
+    }
+
+    .partOne{
+        width:100%;
     }
 
 }
